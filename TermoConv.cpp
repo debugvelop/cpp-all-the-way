@@ -4,8 +4,7 @@ using namespace std;
 int main()
 {
     float x;
-    // Convert temperature from Celsius to Fahrenheit, Reamur, and Kelvin
-    cout << "Temperature in Celsius   = ";
+    cout << "Suhu Termometer Celsius=";
     cin >> x;
 
     float f,r,k;
@@ -13,10 +12,9 @@ int main()
     r=0.8*x;
     k=273+x;
 
-    cout << "Temperature in Fahrenheit= " << f << endl;
-    cout << "Temperature in Reamur    = " << r << endl;
-    cout << "Temperature in Kelvin    = " << k << endl;
+    cout << "Suhu Termometer Fahrenheit=" << f << endl;
+    cout << "Suhu Termometer Reamur=" << r << endl;
+    cout << "Suhu Termometer Kelvin=" << k << endl;
 
-    system("pause");
     return 0;
 }

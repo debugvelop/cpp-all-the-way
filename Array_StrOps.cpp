@@ -2,8 +2,7 @@
 #include <string.h>
 using namespace std;
 
-int main()
-{
+int main(){
     cout << "Array Test Case" << endl;
     char x[100];
     char y[100];

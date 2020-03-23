@@ -16,8 +16,8 @@ int main()
     cin >> e;
     cout << " \n";
 
-    int real=(a+b+c+d+e)/5;
-    cout << "Rata-rata nilai=" << real;
+    int mean=(a+b+c+d+e)/5;
+    cout << "Rata-rata nilai=" << mean;
 
     return 0;
 }
